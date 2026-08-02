@@ -6,3 +6,4 @@
     { "source": "/api/:path*", "destination": "https://allday-api-f17de9c2-kj1e2zuau-allday.vercel.app/:path*" }
   ]
 }
+ 
