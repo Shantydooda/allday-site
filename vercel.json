@@ -1,9 +1,4 @@
 {
-  "rewrites": [
-    { "source": "/product", "destination": "https://allday-talent-0b25ef31-krl4p2wc5-allday.vercel.app/:path*" },
-    { "source": "/product/:path*", "destination": "https://allday-talent-0b25ef31-krl4p2wc5-allday.vercel.app/:path*" },
-    { "source": "/api", "destination": "https://allday-api-f17de9c2-kj1e2zuau-allday.vercel.app/:path*" },
-    { "source": "/api/:path*", "destination": "https://allday-api-f17de9c2-kj1e2zuau-allday.vercel.app/:path*" }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false
 }
- 
